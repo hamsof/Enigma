@@ -5,7 +5,7 @@
   "username": "root",
   "password": "your_password",
   "database": "your_database",
-  "entities": ["entities/*.ts"],
+  "entities": ["*.entities.ts"],
   "migrations": ["migrations/*.ts"],
   "cli": {
     "migrationsDir": "migrations"
